@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.headings{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.logo h2{
+    background: linear-gradient(to right, purple, rgb(155, 120, 120));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* .logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(223, 9, 45), white, rgb(241, 14, 52), white, rgb(244, 11, 50), white, rgb(246, 5, 45), white);
+    border-radius: 50%;
+    animation: anime 2s linear infinite;
+    margin-left: 10px;
+
+} */
+@keyframes anime {
+    100%{
+        rotate: 360deg;
+    }
+    
+}
+.navigations{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.navigations a{
+    font-size: 20px;
+    width: 200px;
+    margin-right: 30px;
+}
+
+.navigations a:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.body-part-1{
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image-section{
+    width: 40%;
+}
+.image-section img{
+    height: 500px;
+    margin-left: 100px;
+    filter: drop-shadow(1px 10px 20px black);
+    margin-top: 50px;
+}
+
+.body-part-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-section2 img{
+    height: 500px;
+    filter: drop-shadow(1px 10px 20px black);
+    margin-top: 50px;
+}
+.text-section{
+    font-family: "Sofia", sans-serif;
+    margin: 50px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid palevioletred;
+    text-align: justify;
+    width: 600px;
+    /* background: conic-gradient(rgb(239, 122, 141), white, rgb(239, 127, 145), white, rgb(241, 113, 135), white, rgb(243, 129, 148), white); */
+    background-image: radial-gradient(pink, white);
+    overflow: hidden;
+
+}
+button{
+
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.backgroundEffect{
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    opacity: 0.3;
+}
+.circle{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    background: conic-gradient(rgb(223, 9, 45), white, rgb(241, 14, 52), white, rgb(244, 11, 50), white, rgb(246, 5, 45), white);
+    border-radius: 50%;
+    animation: anime 2s linear infinite;
+    margin: 50px;
+}
+.front-message{
+    height: 500px;
+    background-color: blue;
+    position: relative;
+    margin-top: 100px;
+}
